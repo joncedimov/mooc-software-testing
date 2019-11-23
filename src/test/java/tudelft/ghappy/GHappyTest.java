@@ -16,7 +16,7 @@ public class GHappyTest {
     @ParameterizedTest(name = "input={0}, result={1}")
     @CsvSource({
             //testing true cases
-            "testggtrue,true", "testgg, true", "ggtestgg, true", "test, true",
+            "testggtrue,true", "testgg, true", "ggtestgg, true", "test, true", "tegggst, true",
             //testing false cases
             "testg, false", "gtest, false", "ggtestg, false", "gtestg, false", "gtg, false"
     })
