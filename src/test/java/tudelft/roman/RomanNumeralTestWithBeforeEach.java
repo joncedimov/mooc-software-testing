@@ -36,4 +36,10 @@ public class RomanNumeralTestWithBeforeEach {
         int result = roman.convert("XLIV");
         Assertions.assertEquals(44, result);
     }
+
+    @Test
+    public void invalidNumber(){
+        int result = roman.convert("XXL");
+        Assertions.assertEquals(0, result);
+    }
 }
